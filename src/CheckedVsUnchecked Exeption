@@ -1,0 +1,10 @@
+Q4) Explain the difference between Checked and Unchecked exception?
+A4) Checked Exception: this classes are directly inherit from throwable class.this exception
+    are checked at compile time by java compiler.We have to handle this exception to run our application.
+    Sqlexception,IOexception this are Checked Exception.This Exception is also called compile-time exception.
+    Unchecked Exception:this classes are directly inherit from RuntimeException are called Unchecked Exception.
+    ArithmeticException, NullPointerException,ArrayIndexOutOfBoundsException this are Unchecked Exception.
+    Without handling this exception we can run this program.So at compile time this exceptions are not
+    checked.so in result it will give a runtime error.
+
+
